@@ -1,5 +1,5 @@
 # MUHAMMAD ARILDA APRILIANTO - 312010399
-KELAS: TI.20.A2
+# KELAS: TI.20.A2
 # PENGGUNAAN GIT
 # APA ITU GIT ?
 Git adalah salah satu sistem pengontrol versi (Version ControlSystem) pada proyek perangkat lunak yang diciptakan oleh Linus Torvalds.
