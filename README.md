@@ -78,13 +78,14 @@ Perintah ini akan meminta memasukkan username dan password pada akun github.com
 
 Melihat hasilnya pada server repository
 Buka laman github.com, arahkan pada repositorinya.
-Maka perubahan akan terlihat pada laman tersebut.
+Maka perubahan akan terlihat pada laman tersebut.(saya sudah memakai nama repositornya dan lupa screenshot)
+
 
 
 Clone Repository
 Clone repository, pada dasarnya adalah meng-copy repository server dan secara otomatis membuat satu direktory sesuai dengan nama repositorynya (working directory).
 Untuk melakukan cloning, gunakan perintah git clone [url]
-
+![13](https://user-images.githubusercontent.com/73010766/96366976-3b612480-1175-11eb-9b8e-97467428bbfa.png)
 
 Kegunaan file README.md
 Apabila kita menggunakan github, untuk memberikan penjelasan awal pada project yang kita buat, maka dapat menggunakan sebuah file yang bernama README.md
