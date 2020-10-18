@@ -11,7 +11,7 @@ Kemudian unduh Git sesuai dengan arsitektur komputer kita. Kalau menggunakan 64b
 Selamat, Git sudah terinstal di Windows. Untuk mencobanya,silahkan buka CMD atau PowerShell, kemudian ketik perintah
 git --version 
 
-Menambahkan Global Config
+# Menambahkan Global Config
 Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi user.name dan user.email
 
 konfigurasi ini bisa dilakukan untuk global repostiry atau individual repository.
@@ -24,7 +24,7 @@ $ git config --global user.name “nama_user"
 
 $ git config --global user.email “nama_user”
 
-Perintah Dasar Git
+# Perintah Dasar Git
 git init, perintah untuk membuat repository local
 git add, perintah untuk menambahkan file baru, atau perubahan pada file pada staging sebelum proses commit.
 git commit, perintah untuk menyimpan perubahan kedalam database git.
@@ -32,17 +32,17 @@ git push -u origin master, perintah untuk mengirim perubahan pada repository loc
 git clone [url], perintah untuk membuat working directory yang diambil dari repositry sever.
 git remote add origin [url], perintah untuk menambahkan remote server/reopsitory server pada local repositry (working directory)
 git pull, perintah untuk mengambil/mendownload perubahan terbaru dari server repository ke local repository
-Membuat Reposiory Local
+# Membuat Reposiory Local
 Buka direktory aktif, misal: d:\labs_pemrograman1 (buka menggunakan Windows Explorer)
 klik kanan pada direktory aktif tersebut, dan pilih menu Git Bash, sehingga muncul git bash commad
 Buat direktory project praktikum pertama dengan nama latihan1 $ mkdir latihan1 $ cd latihan1
 Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya masuk kedalam direktori tersebut dengan perintah cd (change directory)
 direktory aktif menjadi: **d:\labs_pemrograman1\latihan1
-Membuat Reposiory Local
+# Membuat Reposiory Local
 Jalankan perintah git init, untuk membuat repository local. $ git init
 Repository baru berhasil di inisialisasi, dengan terbentuknya satu direktori hidden dengan nama .git
 Pada direktori tersebut, semua perubahan pada working directory akan disimpan.
-Menambahkan File baru pada repository
+# Menambahkan File baru pada repository
 Untuk membuat file dapat menggunakan text editor, lalu menyimpan filenya pada direktori aktif (repository)
 disini kita akan coba buat satu file bernama README.md (text file) $ echo “# Latihan 1” >> README.md
 File README.md berhasil dibuat.
@@ -56,14 +56,14 @@ File README.md berhasil ditambahkan.
 # Commit (Menyimpan perubahan ke database)
 Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah git commit -m “komentar commit” $ git commit -m “File pertama saya”
 Perubahan berhasil disimpan.
-
+![gitpush1](https://user-images.githubusercontent.com/73010766/96367654-53d33e00-1179-11eb-8f38-74dd2b472f99.png)
 
 # Membuat repository server
 Server reopsitory yang akan kita gunakan adalah (http://github.com)
 Anda harus membuat akun terlebih dahulu.
 Pada laman github, klik tombol start a project, atau
 Dari menu (icon +) klik New Repository
-
+![image](https://user-images.githubusercontent.com/73010766/96367585-f939e200-1178-11eb-87dc-fb5017f05729.png)
 
 # Membuat repository server
 Isi nama repositorynya, misal: labpy1.
@@ -71,10 +71,10 @@ lalu klik tombol Create repository
 Menambahkan Remote Repository
 Remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada local repository, sehingga dapat diakses oleh banyak user.
 Untuk menambahkan remote repository server, gunakan perintah git remote add origin [url] `$ git remote add origin https://github.com/muhammadarilda.git
-Push (Mengirim perubahan ke server)
+# Push (Mengirim perubahan ke server)
 Untuk mengirim perubahan pada local repository ke server gunakan perintah git push. $ git push -u origin master
 Perintah ini akan meminta memasukkan username dan password pada akun github.com
-
+![Gitpush](https://user-images.githubusercontent.com/73010766/96367541-9f391c80-1178-11eb-946d-4c40df519dbf.png)
 
 # Melihat hasilnya pada server repository
 Buka laman github.com, arahkan pada repositorinya.
