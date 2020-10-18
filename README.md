@@ -48,24 +48,24 @@ disini kita akan coba buat satu file bernama README.md (text file) $ echo “# L
 File README.md berhasil dibuat.
 
 
-Menambahkan File baru pada repository
+# Menambahkan File baru pada repository
 Untuk menambahkan file yang baru saja dibuat tersebut gunakan perintah git add. $ git add README.md
 File README.md berhasil ditambahkan.
 
 
-Commit (Menyimpan perubahan ke database)
+# Commit (Menyimpan perubahan ke database)
 Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah git commit -m “komentar commit” $ git commit -m “File pertama saya”
 Perubahan berhasil disimpan.
 
 
-Membuat repository server
+# Membuat repository server
 Server reopsitory yang akan kita gunakan adalah (http://github.com)
 Anda harus membuat akun terlebih dahulu.
 Pada laman github, klik tombol start a project, atau
 Dari menu (icon +) klik New Repository
 
 
-Membuat repository server
+# Membuat repository server
 Isi nama repositorynya, misal: labpy1.
 lalu klik tombol Create repository
 Menambahkan Remote Repository
@@ -76,18 +76,19 @@ Untuk mengirim perubahan pada local repository ke server gunakan perintah git pu
 Perintah ini akan meminta memasukkan username dan password pada akun github.com
 
 
-Melihat hasilnya pada server repository
+# Melihat hasilnya pada server repository
 Buka laman github.com, arahkan pada repositorinya.
 Maka perubahan akan terlihat pada laman tersebut.(saya sudah memakai nama repositornya dan lupa screenshot)
+![14](https://user-images.githubusercontent.com/73010766/96367317-503eb780-1177-11eb-9d69-5604d47ae232.png)
 
 
 
-Clone Repository
+# Clone Repository
 Clone repository, pada dasarnya adalah meng-copy repository server dan secara otomatis membuat satu direktory sesuai dengan nama repositorynya (working directory).
 Untuk melakukan cloning, gunakan perintah git clone [url]
 ![13](https://user-images.githubusercontent.com/73010766/96366976-3b612480-1175-11eb-9b8e-97467428bbfa.png)
 
-Kegunaan file README.md
+# Kegunaan file README.md
 Apabila kita menggunakan github, untuk memberikan penjelasan awal pada project yang kita buat, maka dapat menggunakan sebuah file yang bernama README.md
 Pada file tersebut kita dapat membuat dokumentasi awal dari setiap project yang kita buat untuk memberikan penjelasan atau sekedar cara penggunaan dari aplikasi yang kita kembangkan.
 Penulisan file README.md berbasis teks, dan untuk pemformatannya menggunakan Markdown format.
