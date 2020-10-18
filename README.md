@@ -95,6 +95,6 @@ Pada file tersebut kita dapat membuat dokumentasi awal dari setiap project yang 
 Penulisan file README.md berbasis teks, dan untuk pemformatannya menggunakan Markdown format.
 untuk lebih jelasnya, dapat anda pelajari cara penggunaan markdown pada url berikut: https://guides.github.com/features/mastering-markdown/
 
-Made In By Muhammad Arilda Aprilianto
+# Made In By Muhammad Arilda Aprilianto
 
 ![wp1918251-gfriend-wallpapers](https://user-images.githubusercontent.com/73010766/96368212-ecb78880-117c-11eb-849a-7977f7899f01.jpg)
