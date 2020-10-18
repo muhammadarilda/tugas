@@ -33,13 +33,13 @@ git push -u origin master, perintah untuk mengirim perubahan pada repository loc
 git clone [url], perintah untuk membuat working directory yang diambil dari repositry sever.
 git remote add origin [url], perintah untuk menambahkan remote server/reopsitory server pada local repositry (working directory)
 git pull, perintah untuk mengambil/mendownload perubahan terbaru dari server repository ke local repository
-# Membuat Reposiory Local
+# Membuat Repository Local
 Buka direktory aktif, misal: d:\labs_pemrograman1 (buka menggunakan Windows Explorer)
 klik kanan pada direktory aktif tersebut, dan pilih menu Git Bash, sehingga muncul git bash commad
 Buat direktory project praktikum pertama dengan nama latihan1 $ mkdir latihan1 $ cd latihan1
 Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya masuk kedalam direktori tersebut dengan perintah cd (change directory)
 direktory aktif menjadi: **d:\labs_pemrograman1\latihan1
-# Membuat Reposiory Local
+# Membuat Repository Local
 Jalankan perintah git init, untuk membuat repository local. $ git init
 Repository baru berhasil di inisialisasi, dengan terbentuknya satu direktori hidden dengan nama .git
 Pada direktori tersebut, semua perubahan pada working directory akan disimpan.
@@ -97,5 +97,5 @@ untuk lebih jelasnya, dapat anda pelajari cara penggunaan markdown pada url beri
 
 # Made In By Muhammad Arilda Aprilianto
 
-![wp1918251-gfriend-wallpapers](https://user-images.githubusercontent.com/73010766/96368212-ecb78880-117c-11eb-849a-7977f7899f01.jpg)
+![wp1918251-gfriend-wallpapers](https://user-images.githubusercontent.com/73010766/96368212-ecb78880-117c-11eb-849a-7977f7899f01.jpg) ![image](https://user-images.githubusercontent.com/73010766/96369044-dcee7300-1181-11eb-935f-0ddd288a8797.png)
 ![image](https://user-images.githubusercontent.com/73010766/96368341-90089d80-117d-11eb-9873-98ff03769793.png)
