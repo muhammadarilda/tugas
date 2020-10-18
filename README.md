@@ -97,5 +97,5 @@ untuk lebih jelasnya, dapat anda pelajari cara penggunaan markdown pada url beri
 
 # Made In By Muhammad Arilda Aprilianto
 
-![wp1918251-gfriend-wallpapers](https://user-images.githubusercontent.com/73010766/96368212-ecb78880-117c-11eb-849a-7977f7899f01.jpg) ![image](https://user-images.githubusercontent.com/73010766/96369044-dcee7300-1181-11eb-935f-0ddd288a8797.png)
+![wp1918251-gfriend-wallpapers](https://user-images.githubusercontent.com/73010766/96368212-ecb78880-117c-11eb-849a-7977f7899f01.jpg)![image](https://user-images.githubusercontent.com/73010766/96369141-7a49a700-1182-11eb-946e-19d0f3fc0c16.png)
 ![image](https://user-images.githubusercontent.com/73010766/96368341-90089d80-117d-11eb-9873-98ff03769793.png)
